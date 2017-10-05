@@ -3,3 +3,6 @@ body {
     color: white;
     
 }
+tr:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.28);
+}

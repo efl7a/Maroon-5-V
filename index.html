@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<!-- Latest compiled and minified JavaScript -->
+<script src="js/bootstrap.min.js"></script>
     <link 
         href="maroon-5-VStyles.css"
         rel="stylesheet"
@@ -14,20 +20,21 @@
         text-decoration: underline;
         background-color: white;
         
-    }
-    #cover {
-        background-image: url("images/VAlbumcover.jpg");
-        width: 100%;
-        height: 250px;
-        background-position: center;
-        background-repeat: no-repeat;
+    
     } 
     h2 {
-        color: #AF1D1D;
+        text-align: center;
+        color: rgba(89, 117, 177, 0.9);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     } 
     table {
         text-align: center;
         background-color:rgba(165, 19, 63, 0.39);
+    }
+    
+    th{
+        text-align: center;
+        background-color: grey;
     }
     td{
        font-style: italic;
@@ -40,8 +47,12 @@
     <title>Maroon 5 V</title>
 </head>
 <body>
-    <div id="cover">
-
+    <div class="container">
+    
+   
+        <img class="center-block img-circle" src="images/VAlbumcover.jpg"  />
+      
+       
     </div>
     
     <div style="text-align: center;">
@@ -54,7 +65,7 @@
         <hr>
     </div>
     <div>
-        <center><h2 style="font-family:cursive;">Band Members and Producers</h2></center>
+        <h2>Band Members and Producers</h2>
         <ul>
           <li>Adam Levine - Lead Vocals</li>
           
@@ -72,11 +83,11 @@
         </ul>
       
     </div>
-    <div>
+    <div class="container">
         <h2>Tracks</h2>
-        <table border="1" width="100%">
+        <table class="table" width="100%">
             
-            <tr bgcolor="grey">
+            <tr>
                 <th>Track #</th>
                 <th>Track Title</th>
                 <th>Track Length</th>
